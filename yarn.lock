@@ -233,19 +233,19 @@ tslint-consistent-codestyle@^1.13.3:
     tslib "^1.7.1"
     tsutils "^2.27.0"
 
-tslint-eslint-rules@^5.3.1:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-5.3.1.tgz#10dec4361df0b3e4385d91ff8e0226bda4ec2ad4"
+tslint-eslint-rules@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-5.4.0.tgz#e488cc9181bf193fe5cd7bfca213a7695f1737b5"
   dependencies:
     doctrine "0.7.2"
     tslib "1.9.0"
-    tsutils "2.8.0"
+    tsutils "^3.0.0"
 
-tslint-microsoft-contrib@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-5.1.0.tgz#777c32d51aba16f4565e47aac749a1631176cd9f"
+tslint-microsoft-contrib@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-5.2.1.tgz#a6286839f800e2591d041ea2800c77487844ad81"
   dependencies:
-    tsutils "^2.12.1"
+    tsutils "^2.27.2 <2.29.0"
 
 tslint@~5.8.0:
   version "5.8.0"
@@ -263,15 +263,21 @@ tslint@~5.8.0:
     tslib "^1.7.1"
     tsutils "^2.12.1"
 
-tsutils@2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.8.0.tgz#0160173729b3bf138628dd14a1537e00851d814a"
-  dependencies:
-    tslib "^1.7.1"
-
 tsutils@^2.12.1, tsutils@^2.24.0, tsutils@^2.27.0:
   version "2.29.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.29.0.tgz#32b488501467acbedd4b85498673a0812aca0b99"
+  dependencies:
+    tslib "^1.8.1"
+
+"tsutils@^2.27.2 <2.29.0":
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.28.0.tgz#6bd71e160828f9d019b6f4e844742228f85169a1"
+  dependencies:
+    tslib "^1.8.1"
+
+tsutils@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.0.0.tgz#0c5070a17a0503e056da038c48b5a1870a50a9ad"
   dependencies:
     tslib "^1.8.1"
 

@@ -75,14 +75,6 @@ module.exports = {
       true,
       'allow-null-check',
     ],
-    'no-boolean-literal-compare': true,
-    'strict-boolean-expressions': [
-      true,
-      'allow-null-union',
-      'allow-undefined-union',
-      'allow-string',
-      'allow-mix',
-    ],
     'brace-style': [
       true,
       '1tbs',
@@ -160,9 +152,7 @@ module.exports = {
       'check-format',
       'allow-pascal-case',
     ],
-    'no-unused-variable': true,
-    'no-var-self': true,
-    'no-for-in': true,
+    'no-this-assignment': true,
     'import-name': false,
   },
 }
