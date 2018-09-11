@@ -1,6 +1,6 @@
 {
   "name": "@fyzu/tslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "tslint-config.js",
   "repository": "https://github.com/Fyzu/tslint-config.git",
   "author": "dvpetrov <dvpetrov.main@gmail.com>",
